@@ -58,7 +58,7 @@
     overflow: hidden;
     background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
       center/cover;
-      border-radius: 1.5rem;
+  
   }
   
   .video-container video {
@@ -228,7 +228,7 @@
     align-items: center;
     margin-bottom: 40px;
     font-weight: 400;
-    color: #009688;
+    color: #353131;
   }
   .features-desc {
     display: flex;
