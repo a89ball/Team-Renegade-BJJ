@@ -1,124 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="./style.css">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-      </head>
-      
-      <body>
-        <section class="showcase" id="banner">
-			<div class="video-container">
-				<video src="./images/Banner-Video.mp4" autoplay muted loop></video>
-			</div>
-			<div class="content">
-				<h1>Team Renegade</h1>
-				<h3>Martial Arts School of Excellence</h3>
-				<a href="#about" class="btn">Read More</a>
-			</div>
-		</section>
 
-		
-        <div id="sideNav">
-          <nav>
-            <ul>
-              <li><a href="#banner">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#timetable">Timetable</a>
-              <li><a href="#payment">Sign Up</a></li>
-              <li><a href="#contactus">Contact Us</a></li>
-            </ul>
-          </nav>
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+    id="bootstrap-css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<!-- Home -->
+<body>
+  <section class="showcase" id="banner">
+    <div class="video-container">
+      <video src="./images/Banner-Video.mp4" autoplay muted loop></video>
+    </div>
+    <div class="content">
+      <h1>Team Renegade</h1>
+      <h3>Martial Arts School of Excellence</h3>
+      <a href="#about" class="btn">Read More</a>
+    </div>
+  </section>
+
+
+  <div id="sideNav">
+    <nav>
+      <ul>
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#timetable">Timetable</a>
+        <li><a href="#payment">Sign Up</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="menuBtn">
+    <img src="https://i.postimg.cc/L5vc8FW6/menu.png" id="menu">
+  </div> <br> <br> <br>
+
+  <!-- About -->
+  <section id="about">
+    <img src="./images/Team Renegade Logo.png" id="logo">
+    <div class="title-text">
+      <p>About Us</p>
+      <h1>Lorem Ipsum</h1>
+    </div>
+    <div class="features-box">
+      <div class="features">
+        <h1>Lorem Ipsum</h1>
+        <div class="features-desc">
+          <div class="feature-icon">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div class="feature-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
         </div>
-      
-        <div id="menuBtn">
-          <img src="https://i.postimg.cc/L5vc8FW6/menu.png" id="menu">
-        </div> <br> <br> <br>
-      
-        <!-- About -->
-        <section id="about">
-            <img src="./images/Team Renegade Logo.png" id="logo">
-          <div class="title-text">
-            <p>About Us</p>
-            <h1>Lorem Ipsum</h1>
+        <h1>Lorem Ipsum</h1>
+        <div class="features-desc">
+          <div class="feature-icon">
+            <i class="fa-solid fa-people-group"></i>
           </div>
-          <div class="features-box">
-            <div class="features">
-              <h1>Lorem Ipsum</h1>
-              <div class="features-desc">
-                <div class="feature-icon">
-                  <i class="fa fa-shield"></i>
-                </div>
-                <div class="feature-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  </p>
-                </div>
-              </div>
-              <h1>Lorem Ipsum</h1>
-              <div class="features-desc">
-                <div class="feature-icon">
-                  <i class="fa fa-check-square-o"></i>
-                </div>
-                <div class="feature-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="features-img">
-              <img src="./images/Mat-cleaning.png">
-            </div>
+          <div class="feature-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
           </div>
-        </section><br> <br> <br>
+        </div>
+      </div>
+      <div class="features-img">
+        <img src="./images/Mat-cleaning.png">
+      </div>
+    </div>
+  </section><br> <br> <br>
+
+<!-- Time Table -->
+  <section id="timetable">
+    <div class="title-text">
+      <p>Timetable</p>
+      <h1>Lorem Ipsum</h1>
+    </div>
+    <div class="features-box">
+      <div class="features">
+        <h1>Lorem Ipsum</h1>
+        <div class="features-desc">
+          <div class="feature-icon">
+            <i class="fa fa-shield"></i>
+          </div>
+          <div class="feature-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <h1>Lorem Ipsum</h1>
+        <div class="features-desc">
+          <div class="feature-icon">
+            <i class="fa-solid fa-dumbbell"></i>
+          </div>
+          <div class="feature-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="features-img">
+        <img src="./images/Timetabletake2.png">
+      </div>
+    </div>
+  </section><br> <br> <br>
 
 
-        <section id="Timetable">
-            <div class="title-text">
-                <p>Timetable</p>
-                <h1>Lorem Ipsum</h1>
+<!-- Contact Us -->
+  <section class="contact r-p bg-sec" id="contact">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col way-fade-left">
+          <h2>Contact</h2>
+          <p>Feel free to contact us</p>
+        </div>
+      </div>
+      <div class="row mt-5 way-fade-left">
+        <div class="col-md-6">
+          <div class="r-icon">
+            <i class="fas fa-mobile-alt"></i></div>
+          <div class="text-center">
+            <h5>Call Us</h5>
+            <p>07946 892727</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="r-icon">
+            <i class="far fa-envelope"></i></div>
+          <div class="text-center">
+            <h5>Email</h5>
+            <p>Placeholder@renegade.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Name">
               </div>
-              <div class="features-box">
-                <div class="features">
-                  <h1>Lorem Ipsum</h1>
-                  <div class="features-desc">
-                    <div class="feature-icon">
-                      <i class="fa fa-shield"></i>
-                    </div>
-                    <div class="feature-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      </p>
-                    </div>
-                  </div>
-                  <h1>Lorem Ipsum</h1>
-                  <div class="features-desc">
-                    <div class="feature-icon">
-                      <i class="fa fa-check-square-o"></i>
-                    </div>
-                    <div class="feature-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="features-img">
-                  <img src="./images/Timetabletake2.png">
-                </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" placeholder="Email">
               </div>
-            </section><br> <br> <br>
-
-          <!-- footer -->
-          <section id="footer">
-          
-            <div class="social-links">
-              
-              <p> &copy; Team Renegade BJJ 2013 | All rights reserved.</p>
             </div>
-          </section>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="7" placeholder="your message" style="resize: none;"></textarea>
+            </div>
+            <button type="submit" class="btn r-btn float-right">Submit</button>
+          </form>
+        </div>
+      </div>
+  </section>
 
-        <script src="./script.js"></script>
-        </html>
+
+
+  <!-- footer -->
+  <section id="footer">
+        </div>
+        <a href="https://www.instagram.com/renegadejiujitsu/"><img src="./images/Instagram-Logo-PNG-Image.png" class="social-media"> </a>
+        <a href="https://www.facebook.com/Team-Renegade-MMA-BJJ-101407568715637"><img src="./images/facebookcircular.png" class="social-media"></a>
+        <div>
+      </div>
+    </div>
+  </div>
+    <div class="social-links">
+
+      <p> &copy; Team Renegade BJJ 2013 | All rights reserved.</p>
+    </div>
+  </section>
+
+  <script src="./script.js"></script>
+
+</html>
